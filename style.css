@@ -1,0 +1,119 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e9eff5; /* Açık mavi/gri arka plan */
+}
+
+/* Uygulama Ana Konteyneri */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlıklar */
+h1 {
+    color: #007bff; /* Mavi Başlık */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Başlık İkonları */
+.icon {
+    font-size: 1.2em; /* İkon boyutunu artır */
+    color: #28a745; /* Yeşil renk ver */
+    margin: 0 5px;
+}
+
+h2 {
+    color: #343a40; /* Koyu Gri Başlık */
+    border-bottom: 2px solid #007bff; /* Mavi Çizgi */
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Etiketler */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #495057; 
+}
+
+/* Seçim Kutuları (Select) */
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box; 
+    font-size: 16px;
+    background-color: #f8f9fa; /* Hafif Gri Arka Plan */
+    transition: border-color 0.3s;
+}
+
+select:focus {
+    border-color: #007bff; /* Odaklanınca Mavi Çerçeve */
+    outline: none;
+}
+
+/* Kaynak Listesi */
+#kaynak-listesi {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Tüm Kaynak Öğeleri İçin Ortak Stil */
+#kaynak-listesi li {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Kolay Seviye (TEMEL DÜZEY): Yeşil Vurgu */
+.kolay-kaynak {
+    background-color: #e6f9e6; 
+    border-left: 5px solid #28a745; /* Yeşil çizgi */
+}
+
+/* Orta Seviye (ORTA DÜZEY): Mavi Vurgu */
+.orta-kaynak {
+    background-color: #e9f7ff; 
+    border-left: 5px solid #007bff; /* Mavi çizgi */
+}
+
+/* Zor Seviye (İLERİ DÜZEY): Kırmızı Vurgu */
+.zor-kaynak {
+    background-color: #fcebeb; 
+    border-left: 5px solid #dc3545; /* Kırmızı çizgi */
+}
+
+/* Kaynak Listesindeki Emojilerin Stili */
+.list-emoji {
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+/* İmza (Footer) Stili */
+#footer-imza {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #6c757d; 
+    border-top: 1px solid #dee2e6; 
+    background-color: #f8f9fa; 
+}
+
+#footer-imza p {
+    margin: 5px 0;
+}
