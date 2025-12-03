@@ -14,7 +14,7 @@ const YKS_KAYNAKLAR = {
   // TYT MATEMATİK
   "TYT MATEMATİK": {
     "TEMEL DÜZEY": ["Aktif Yay. O'dan Başlayanlara", "Matematiğin İlacı (Acil Yay)", "Birey A serisi", "Kafadengi Turuncu", "Karekök Sıfır", "AKTİF GÜÇLENDİREN SERİ", "MİKRO ORJİNAL", "rehber matematik"],
-    "ORTA DÜZEY": ["345 Yayınları", "Bilgi Sarmal", "Kaf 1 (Video Dersli)", "Kaf 2 (Video Dersli)", "Eğitim Vadisi yay.", "Karekök Yayınları", "Mert Hoca TYT Video Ders", "Miray Yay. Soru B. (Bıyıklı Matematik kanal destekli)", "esen yayınları", "çap 9. sınıf fasikül"],
+    "ORTA DÜZEY": ["345 Yayınları", "Bilgi Sarmal","Eğitim Vadisi yay.", "Karekök Yayınları", "Mert Hoca TYT Video Ders", "Miray Yay. Soru B. (Bıyıklı Matematik kanal destekli)", "esen yayınları", "çap 9. sınıf fasikül"],
     "İLERİ DÜZEY": ["Acil yayınları", "3D yayınları", "Apotemi TYT Soru Bankası", "Toprak (Yeni Nesil +)", "Orijinal Yayınları", "Paraf Yeni Nesil Soru Kütüphanesi", "Prf Gold serisi", "Metin Yayınları", "Aydın Yay. Matematik S. Ban.", "Endemik yayınları (Klasik fazla)", "çap 10.sınıf matematik", "Eyüp B TYT Video Defter", "TOPRAK YAYINLARI"]
   },
   
@@ -28,7 +28,7 @@ const YKS_KAYNAKLAR = {
   // TYT GEOMETRİ
   "TYT GEOMETRİ": {
     "TEMEL DÜZEY": ["Geometrinin İlacı (Acil Yay)", "Kafadengi Turuncu", "Aktif Ö. Yayınları O'dan Başlayanlara", "Full yayınları", "Eis (Föy)", "Çap(Föy)", "Ens yayınları", "birey b"],
-    "ORTA DÜZEY": ["3 4 5 Yayınları", "Bilgi Sarmal", "Eğitim vadisi", "Metin yayınları", "Yayın Denizi Pro", "Kaf Geo 1 (Üçgenler)", "Kaf Geo 2 (Çokgenler)", "AYDIN YAYINLARI", "Kaf Ceo 1 (Video Dersli)", "Kaf Ceo 2 (Video Dersli)", "ORJİNAL MİKRO SERİSİ", "KR Akademi Kenan Kara ile TYT-AYT Geometri"],
+    "ORTA DÜZEY": ["3 4 5 Yayınları", "Bilgi Sarmal", "Eğitim vadisi", "Metin yayınları", "Yayın Denizi Pro", "AYDIN YAYINLARI", "Kaf Ceo 1 (Video Dersli)", "ORJİNAL MİKRO SERİSİ", "KR Akademi Kenan Kara ile TYT-AYT Geometri"],
     "İLERİ DÜZEY": ["Acil yayınları", "3D yayınları", "Orijinal yayınları", "Karekök yayınları", "Apotemi Maestro (Çok İleri)", "Toprak", "Apotemi (Analitik Geometri) Fasikül", "merkez"]
   },
   
@@ -199,4 +199,5 @@ seviyeSecim.addEventListener('change', (event) => {
 });
 
 // Uygulama yüklendiğinde dersleri doldur
+
 dersleriDoldur();
