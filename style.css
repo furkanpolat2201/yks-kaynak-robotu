@@ -116,4 +116,18 @@ select:focus {
 
 #footer-imza p {
     margin: 5px 0;
+
+}/* İmza (Footer) Stili */
+#footer-imza {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #6c757d; 
+    border-top: 1px solid #dee2e6; 
+    background-color: #f8f9fa; 
+}
+
+#footer-imza p {
+    margin: 5px 0;
 }
